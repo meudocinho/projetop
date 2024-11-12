@@ -6,7 +6,7 @@ function togglemode() {
    // subs a imagem
    if (html.classList.contains("light")) {
      // se tiver light mode,adcionar a imagem light
-     img.setAttribute("src", "./assets/p-light.png")
+     img.setAttribute("src", "./assets/p-light.jpg")
      img.setAttribute(
        "alt",
        "@patriciatargino com uma maquiagem espetacular"
@@ -14,11 +14,8 @@ function togglemode() {
      
      } else {  
       // se tiver sem light mode,manter a imagem  normal }
-      img.setAttribute("src", "./assets/avatar.png")
-      img.setAttribute(
-      "alt",
-      "foto de @patriciatargino sentada de camisa jeans,com telefone e fundo desfocado"
-    )
+      img.setAttribute("src", "./assets/avatar.jpg")
+      img.setAttribute("alt", "foto da logo do seu Studio")
 
     }
   }
