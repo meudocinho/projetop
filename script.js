@@ -6,8 +6,8 @@ function togglemode() {
    // subs a imagem
    if (html.classList.contains("light")) {
      // se tiver light mode,adcionar a imagem light
-     img.setAttribute("src", "./assets/p-light.jpg")
-     img.setAttribute(
+     img.setAttribute ("src", "./assets/p-light.jpg")
+     img.setAttribute (
        "alt",
        "@patriciatargino com uma maquiagem espetacular"
      )
